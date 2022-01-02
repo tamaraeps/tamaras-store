@@ -1,0 +1,65 @@
+*{
+ font-family: 'Bitter', serif;
+}
+
+.nav a {
+    color: #86a0be;
+    font-size: 14px;
+
+}
+
+.nav{
+    border-bottom: 2px solid rgb(236, 231, 231);
+}
+
+.nav a:hover{
+    color: rgb(39, 38, 38);
+
+}
+
+header{
+    margin:10px 30px;  
+}
+
+
+header i{
+    font-size: 25px;
+    color: #34495e;
+}
+
+.logo a{
+    padding: 15px;
+}
+header img{
+    height: 50px;
+    width: auto;
+    padding-left: 20px;
+}
+
+.nav-icons i{
+    padding: 10px;
+
+}
+
+.banner{
+    flex-direction: column;
+}
+
+.banner div{
+    margin: auto;
+}
+
+.banner-balls{
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background-color:  rgb(187, 187, 187);
+    padding: 6px;
+    border-radius: 50%;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+.banner-balls:hover{
+    background-color:  rgb(161, 160, 160);
+}
