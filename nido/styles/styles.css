@@ -18,7 +18,7 @@
 }
 
 header{
-    margin:10px 30px;  
+    margin:10px 20px;  
 }
 
 
@@ -27,11 +27,17 @@ header i{
     color: #34495e;
 }
 
+header i:hover{
+    background-color: rgb(247, 238, 238);
+    border: 0.5px solid rgb(231, 228, 228);
+    border-radius: 5px;
+}
+
 .logo a{
     padding: 15px;
 }
 header img{
-    height: 50px;
+    height: 40px;
     width: auto;
     padding-left: 20px;
 }
@@ -61,5 +67,259 @@ header img{
 }
 
 .banner-balls:hover{
-    background-color:  rgb(161, 160, 160);
+    background-color:  rgb(119, 116, 116);
+}
+
+.player,
+.blue-tabla,
+.toys,
+.socials-form,
+footer {
+    margin: 10px 30px;
+    position: relative;
+}
+
+
+.card{
+    width: 15%;
+    border-radius: 5px;
+    box-shadow: 2px 2px 3px rgb(192, 188, 188);
+    margin: 10px;
+    border:0px;
+    position: relative;
+    padding-bottom: 20px;
+}
+
+.card a{
+    text-decoration: none;
+    padding-bottom: 20px;
+}
+
+.card img {
+    width: 190px;
+    max-width: 100%;
+    height: auto;
+    padding: 25px 0;
+}
+.nido-prime{
+    text-decoration: none;
+    justify-content: right;
+}
+
+.nido-prime span{
+    background-color: black;
+    color: white;
+    border-radius: 25px 0 25px 25px;
+    font-size: 13px;
+    width: 80px;
+    text-align: center;
+    padding: 5px;
+}
+
+.price-tag{
+    font-weight: bold; 
+    color: black;
+}
+
+.star-rate{
+    color: rgb(243, 230, 113);
+    font-size: 13px;
+    padding: 10px 0;
+}
+
+.card-discr{
+    color:black;
+    font-size: 14px;
+    
+}
+
+.fast-lookup{
+    position: absolute;
+    display: none;
+    
+}
+
+.fast-lookup a{
+    color: rgb(165, 171, 175);
+    font-size: 17px;
+    margin: 15px 0px;
+    
+}
+
+.fast-lookup i{
+    padding: 5px;
+    border: 1px solid rgb(208, 213, 224);
+    border-radius: 5px;
+    width: 30px;
+    height: 30px;
+}
+
+.fast-lookup a:hover{
+    color: rgb(56, 55, 55);
+}
+
+.fast-lookup i:hover{
+    border: 1.5px solid rgb(104, 102, 102);
+}
+
+.card:hover .fast-lookup{
+display: block;
+}
+
+h4{
+    padding: 20px;
+    font-size: bold;
+}
+
+.search{
+    width: 600px;
+}
+
+.search i{
+    color: #86a0be;
+}
+
+.mail-block,
+.socials-block {
+    flex-direction: column;
+}
+
+.mail-block,
+.socials-block {
+    background-color: #e9ecef;
+    width: 580px;
+    height: 175px;
+}
+
+.mail-block input{
+    width: 350px;
+    border-radius: 20px;
+    margin-right: 5px;
+}
+
+.mail-block  button{
+    background-color: #f79b34;
+    border-radius: 30px;
+    width: 120px;
+    
+}
+
+.mail-block  button:hover{
+    background-color: rgb(71, 71, 71);
+    color: white;
+}
+
+.socials-form span{
+    padding-bottom: 25px;
+    color: rgb(102, 99, 99);
+    display: inline;
+    text-align: center;
+   
+
+}
+
+h5{
+    padding-top: 15px;
+    color: black;
+    font-weight: bold;
+}
+
+.socials-block i{
+    font-size: 22px;
+    display: inline-flex;
+    align-items: center;
+    margin: auto;
+    border-radius: 18px;
+    color: white;
+    background-color: #86a0be;
+    width: 36px;
+    height: 36px;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.socials-form i:hover{
+    background-color: #f79b34;
+}
+
+footer{
+    background-color: #edf1f5;
+    margin-top: 30px;
+
+}
+
+footer a{
+    text-decoration: none;
+    color: rgb(54, 53, 53);
+}
+
+footer li{
+    list-style: none;
+    
+    padding: 5px 0;  
+}
+
+footer span{
+    font-weight: bold;
+    padding-left: 32px;
+}
+
+footer div{
+    width: 33%;
+}
+
+.chevron{
+    position: absolute;
+    z-index: 5;
+    background-color: rgba(236, 222, 222, 0.3);
+    align-items: center;
+    width: 35px;
+    height: 35px;
+    border-radius: 20px;
+    justify-content: center;
+    cursor: pointer;
+    border:0.5px solid rgba(240, 232, 232, 0.4);
+}
+
+.chevron:hover{
+    background-color: rgba(190, 181, 181, 0.2);
+    border:0.5px solid rgba(189, 181, 181, 0.5);
+}
+
+.chevron-left{
+   top: 150px;
+   left: -20px;
+}
+
+.chevron-right{
+    top: 150px;
+    right: -20px;
+    
+}
+
+.user-circle{
+    flex-direction: column;
+    z-index: 3;
+    right: 20px;
+    
+}
+
+.user-circle button{
+    background-color: rgba(190, 181, 181, 0.2);
+    border-radius: 2px;
+    border:0.5px solid rgba(189, 181, 181, 0.5);
+    display: none;
+    width:200px;
+}
+
+.user-circle button:hover {
+    background-color: rgba(156, 150, 150, 0.3);  
+}
+
+
+.user-circle-icon:hover .user-circle button{
+    display: block;
+}
+.user-circle a{
+    text-decoration: none;
 }

@@ -33,13 +33,13 @@
     </div>
     <header class="d-flex justify-content-between header">
         <div class="logo d-flex align-items-center">
-            <a href="#"><i class="fas fa-bars"></i></a>
+            <a class="nav-icons" href="#"><i class="fas fa-bars"></i></a>
             <a href="#"><img src="./assets/logo/nido_logo_2_png.webp" alt="logo"></a>
         </div>
         <div class="search align-items-center d-flex">
             <div class="input-group search-padding">
                 <input type="search" class="form-control" placeholder="ვინც ეძებს, ის პოულობს..." aria-label="search">
-                <button class="input-group-text" id="search-button" type="button" >
+                <button class="input-group-text" type="button" >
                     <i class="fas fa-search"></i>
                 </button>
             </div> 
@@ -48,10 +48,16 @@
             <a href="#"><i class="fas fa-poll"></i></a>
             <a href="#"><i class="far fa-heart"></i></a>
             <a href="#"><i class="fas fa-shopping-cart"></i></a>
-            <a href="#"><i class="far fa-user-circle"></i></a>
+            <div class="user-circle-icon">
+                <a href="#"><i class="far fa-user-circle"></i></a>
+                <div class="user-circle d-flex position-absolute">
+                    <a href="#"><button type="button" class="btn">ანგარიშზე შესვლა</button></a>
+                    <a href="#"><button type="button" class="btn">რეგისტრაცია</button></a>
+                </div>
+            </div>
         </div>
     </header>
-    <div class="banner d-flex justify-content-center">
+    <div class="banner d-flex justify-content-center position-relative">
         <img src="./assets/img/banner1.PNG" alt="ფირსაკრავი">
         <div>
             <span class="banner-balls"></span>
@@ -59,13 +65,480 @@
             <span class="banner-balls"></span>
             <span class="banner-balls"></span>
         </div>
+        
     </div>
-    <div class="new-year"></div>
-    <div class="blue-tabla"></div>
-    <div class="toys"></div>
-    <div class="player"></div>
-    <footer>
-
+    <h4>ფირსაკრავები</h4>
+    <div class="player d-flex justify-content-around">
+        <div class="chevron chevron-left d-flex">
+            <i class="fas fa-chevron-left"></i>
+        </div>
+        <div class="chevron chevron-right d-flex">
+            <i class="fas fa-chevron-right"></i>
+        </div>
+        <div class="card">
+            <a class="d-block" href="#">
+                <div class="nido-prime d-flex">
+                   <span>nido prime</span>
+                </div>
+                <img src="./assets/img/player blue.webp" alt="Crosley">
+                <span class="price-tag">450.00₾</span> 
+                <div class="star-rate">
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <span class="card-discr">CROSLEY პორტატული ფირსაკრავი Discovery...</span>
+            </a>
+            <div class="fast-lookup">
+                <a href="#"><i class="fas fa-eye"></i></a><br>
+                <a href="#"><i class="far fa-heart"></i></a><br>
+                <a href="#"><i class="fas fa-poll"></i></a>
+            </div>
+        </div>
+        <div class="card">
+            <a class="d-block" href="#">
+                <div class="nido-prime d-flex">
+                   <span>nido prime</span>
+                </div>
+                <img src="./assets/img/player green.webp" alt="Crosley">
+                <span class="price-tag">450.00₾</span> 
+                <div class="star-rate">
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <span class="card-discr">CROSLEY პორტატული ფირსაკრავი Discovery...</span>
+            </a>
+            <div class="fast-lookup">
+                <a href="#"><i class="fas fa-eye"></i></a><br>
+                <a href="#"><i class="far fa-heart"></i></a><br>
+                <a href="#"><i class="fas fa-poll"></i></a>
+            </div>
+        </div>
+        <div class="card">
+            <a class="d-block" href="#">
+                <div class="nido-prime d-flex">
+                   <span>nido prime</span>
+                </div>
+                <img src="./assets/img/player white.webp" alt="Crosley">
+                <span class="price-tag">450.00₾</span> 
+                <div class="star-rate">
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <span class="card-discr">CROSLEY პორტატული ფირსაკრავი Discovery...</span>
+            </a>
+            <div class="fast-lookup">
+                <a href="#"><i class="fas fa-eye"></i></a><br>
+                <a href="#"><i class="far fa-heart"></i></a><br>
+                <a href="#"><i class="fas fa-poll"></i></a>
+            </div>
+        </div>
+        <div class="card">
+            <a class="d-block" href="#">
+                <div class="nido-prime d-flex">
+                   <span>nido prime</span>
+                </div>
+                <img src="./assets/img/player white 2.webp" alt="Crosley">
+                <span class="price-tag">499.00₾</span> 
+                <div class="star-rate">
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <span class="card-discr">CROSLEY პორტატული ფირსაკრავი Voyager...</span>
+            </a>
+            <div class="fast-lookup">
+                <a href="#"><i class="fas fa-eye"></i></a><br>
+                <a href="#"><i class="far fa-heart"></i></a><br>
+                <a href="#"><i class="fas fa-poll"></i></a>
+            </div>
+        </div>
+        <div class="card">
+            <a class="d-block" href="#">
+                <div class="nido-prime d-flex">
+                   <span>nido prime</span>
+                </div>
+                <img src="./assets/img/player chok.webp" alt="Crosley">
+                <span class="price-tag">315.00₾</span> 
+                <div class="star-rate">
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <span class="card-discr">Lenco ფირსაკრავი TT-10 ყავისფერი (ლენკო)...</span>
+            </a>
+            <div class="fast-lookup">
+                <a href="#"><i class="fas fa-eye"></i></a><br>
+                <a href="#"><i class="far fa-heart"></i></a><br>
+                <a href="#"><i class="fas fa-poll"></i></a>
+            </div>
+        </div>
+        <div class="card">
+            <a class="d-block" href="#">
+                <div class="nido-prime d-flex">
+                   <span>nido prime</span>
+                </div>
+                <img src="./assets/img/player green 2.webp" alt="Crosley">
+                <span class="price-tag">570.00₾</span> 
+                <div class="star-rate">
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <span class="card-discr">Lenco ფირსაკრავი L-85 მწვანე (ლენკო)...</span>
+            </a>
+            <div class="fast-lookup">
+                <a href="#"><i class="fas fa-eye"></i></a><br>
+                <a href="#"><i class="far fa-heart"></i></a><br>
+                <a href="#"><i class="fas fa-poll"></i></a>
+            </div>
+        </div> 
+    </div>
+    <h4>Blue Tabla</h4>
+    <div class="blue-tabla d-flex justify-content-around">
+        <div class="chevron chevron-left d-flex">
+            <i class="fas fa-chevron-left"></i>
+        </div>
+        <div class="chevron chevron-right d-flex">
+            <i class="fas fa-chevron-right"></i>
+        </div>
+        <div class="card">
+            <a class="d-block" href="#">
+                <div class="nido-prime d-flex">
+                   <span>nido prime</span>
+                </div>
+                <img src="./assets/img/tabla1.webp" alt="Blue Tabla">
+                <span class="price-tag">23.00₾</span> 
+                <div class="star-rate">
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <span class="card-discr">ჭიქა ლამბაქით - ანბანი - ფაიფური - 7სმ - BlueTabla</span>
+            </a>
+            <div class="fast-lookup">
+                <a href="#"><i class="fas fa-eye"></i></a><br>
+                <a href="#"><i class="far fa-heart"></i></a><br>
+                <a href="#"><i class="fas fa-poll"></i></a>
+            </div>
+        </div>
+        <div class="card">
+            <a class="d-block" href="#">
+                <div class="nido-prime d-flex">
+                   <span>nido prime</span>
+                </div>
+                <img src="./assets/img/tabla2.webp" alt="Blue Tabla">
+                <span class="price-tag">17.00₾</span> 
+                <div class="star-rate">
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <span class="card-discr">ჭიქა - ანბანი - ფაიფური - 10სმ - BlueTabla</span>
+            </a>
+            <div class="fast-lookup">
+                <a href="#"><i class="fas fa-eye"></i></a><br>
+                <a href="#"><i class="far fa-heart"></i></a><br>
+                <a href="#"><i class="fas fa-poll"></i></a>
+            </div>
+        </div>
+        <div class="card">
+            <a class="d-block" href="#">
+                <div class="nido-prime d-flex">
+                   <span>nido prime</span>
+                </div>
+                <img src="./assets/img/tabla3.webp" alt="Blue Tabla">
+                <span class="price-tag">129.00₾</span> 
+                <div class="star-rate">
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <span class="card-discr">კომპლექტი (8ც) - ლურჯი სუფრა - ფაიფური - BlueTabla</span>
+            </a>
+            <div class="fast-lookup">
+                <a href="#"><i class="fas fa-eye"></i></a><br>
+                <a href="#"><i class="far fa-heart"></i></a><br>
+                <a href="#"><i class="fas fa-poll"></i></a>
+            </div>
+        </div>
+        <div class="card">
+            <a class="d-block" href="#">
+                <div class="nido-prime d-flex">
+                   <span>nido prime</span>
+                </div>
+                <img src="./assets/img/tabla4.webp" alt="Blue Tabla">
+                <span class="price-tag">129.00₾</span> 
+                <div class="star-rate">
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <span class="card-discr">კომპლექტი (8ც) - ლურჯი სუფრა - ფაიფური - მრგვალი - BlueTabla</span>
+            </a>
+            <div class="fast-lookup">
+                <a href="#"><i class="fas fa-eye"></i></a><br>
+                <a href="#"><i class="far fa-heart"></i></a><br>
+                <a href="#"><i class="fas fa-poll"></i></a>
+            </div>
+        </div>
+        <div class="card">
+            <a class="d-block" href="#">
+                <div class="nido-prime d-flex">
+                   <span>nido prime</span>
+                </div>
+                <img src="./assets/img/tabla5.webp" alt="Blue Tabla">
+                <span class="price-tag">25.00₾</span> 
+                <div class="star-rate">
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <span class="card-discr">თეფში - ანბანი - ფაიფური - 25სმ - BlueTabla</span>
+            </a>
+            <div class="fast-lookup">
+                <a href="#"><i class="fas fa-eye"></i></a><br>
+                <a href="#"><i class="far fa-heart"></i></a><br>
+                <a href="#"><i class="fas fa-poll"></i></a>
+            </div>
+        </div>
+        <div class="card">
+            <a class="d-block" href="#">
+                <div class="nido-prime d-flex">
+                   <span>nido prime</span>
+                </div>
+                <img src="./assets/img/tabla6.webp" alt="Blue Tabla">
+                <span class="price-tag">14.00₾</span> 
+                <div class="star-rate">
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <span class="card-discr">ჯამი - ანბანი - ფაიფური - 11სმ - BlueTabla</span>
+            </a>
+            <div class="fast-lookup">
+                <a href="#"><i class="fas fa-eye"></i></a><br>
+                <a href="#"><i class="far fa-heart"></i></a><br>
+                <a href="#"><i class="fas fa-poll"></i></a>
+            </div>
+        </div>
+        
+    </div>
+    <h4>სათამაშოები</h4>
+    <div class="toys d-flex">
+        <div class="chevron chevron-left d-flex">
+            <i class="fas fa-chevron-left"></i>
+        </div>
+        <div class="chevron chevron-right d-flex">
+            <i class="fas fa-chevron-right"></i>
+        </div>
+        <div class="card">
+            <a class="d-block" href="#">
+                <div class="nido-prime d-flex">
+                   <span>nido prime</span>
+                </div>
+                <img src="./assets/img/toy1.webp" alt="nido toys">
+                <span class="price-tag">85.00₾</span> 
+                <div class="star-rate">
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <span class="card-discr">საბავშვო ხალიჩა - ქართული ანბანი - დედა...</span>
+            </a>
+            <div class="fast-lookup">
+                <a href="#"><i class="fas fa-eye"></i></a><br>
+                <a href="#"><i class="far fa-heart"></i></a><br>
+                <a href="#"><i class="fas fa-poll"></i></a>
+            </div>
+        </div>
+        <div class="card">
+            <a class="d-block" href="#">
+                <div class="nido-prime d-flex">
+                   <span>nido prime</span>
+                </div>
+                <img src="./assets/img/toy2.webp" alt="nido toys">
+                <span class="price-tag">69.00₾</span> 
+                <div class="star-rate">
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <span class="card-discr">TopBright სათამაშო კოდალა TB120392...</span>
+            </a>
+            <div class="fast-lookup">
+                <a href="#"><i class="fas fa-eye"></i></a><br>
+                <a href="#"><i class="far fa-heart"></i></a><br>
+                <a href="#"><i class="fas fa-poll"></i></a>
+            </div>
+        </div>
+        <div class="card">
+            <a class="d-block" href="#">
+                <div class="nido-prime d-flex">
+                   <span>nido prime</span>
+                </div>
+                <img src="./assets/img/toy3.webp" alt="nido toys">
+                <span class="price-tag">69.00₾</span> 
+                <div class="star-rate">
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <span class="card-discr">TopBright საბავშვო ქსილოფონი TB120407...</span>
+            </a>
+            <div class="fast-lookup">
+                <a href="#"><i class="fas fa-eye"></i></a><br>
+                <a href="#"><i class="far fa-heart"></i></a><br>
+                <a href="#"><i class="fas fa-poll"></i></a>
+            </div>
+        </div>
+        <div class="card">
+            <a class="d-block" href="#">
+                <div class="nido-prime d-flex">
+                   <span>nido prime</span>
+                </div>
+                <img src="./assets/img/toy4.webp" alt="nido toys">
+                <span class="price-tag">86.00₾</span> 
+                <div class="star-rate">
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <span class="card-discr">TopBright ასაწყობი კუბები TB120315...</span>
+            </a>
+            <div class="fast-lookup">
+                <a href="#"><i class="fas fa-eye"></i></a><br>
+                <a href="#"><i class="far fa-heart"></i></a><br>
+                <a href="#"><i class="fas fa-poll"></i></a>
+            </div>
+        </div>
+        <div class="card">
+            <a class="d-block" href="#">
+                <div class="nido-prime d-flex">
+                   <span>nido prime</span>
+                </div>
+                <img src="./assets/img/toy5.webp" alt="nido toys">
+                <span class="price-tag">69.00₾</span> 
+                <div class="star-rate">
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <span class="card-discr">TopBright ასაწყობი ცხოველები TB120314...</span>
+            </a>
+            <div class="fast-lookup">
+                <a href="#"><i class="fas fa-eye"></i></a><br>
+                <a href="#"><i class="far fa-heart"></i></a><br>
+                <a href="#"><i class="fas fa-poll"></i></a>
+            </div>
+        </div>
+        <div class="card">
+            <a class="d-block" href="#">
+                <div class="nido-prime d-flex">
+                   <span>nido prime</span>
+                </div>
+                <img src="./assets/img/toy6.webp" alt="nido toys">
+                <span class="price-tag">69.00₾</span> 
+                <div class="star-rate">
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <span class="card-discr">TopBright თამაში რიცხვების ცნობის სასწავლად TB120478...</span>
+            </a>
+            <div class="fast-lookup">
+                <a href="#"><i class="fas fa-eye"></i></a><br>
+                <a href="#"><i class="far fa-heart"></i></a><br>
+                <a href="#"><i class="fas fa-poll"></i></a>
+            </div>
+        </div>
+    </div>
+    <div class="socials-form d-flex justify-content-between p-2">
+        <div class="mail-block d-flex align-items-center">
+            <h5>გამოიწერეთ შემოთავაზებები</h5>
+            <span>მიიღეთ სპეციალური შეთავაზებები და ფასდაკლებები</span>
+            <div class="subscribe d-flex">
+                <input type="email" class="form-control" placeholder="ელ.ფოსტა">
+                <button type="button" class="btn">გამოწერა</button>
+            </div>
+        </div>
+        <div class="socials-block d-flex align-items-center">
+            <h5>შემოგვიერთდი</h5>
+            <span>შემოგვიერთდი <br> 
+            გაიგე პირველმა აქციების და ფასდაკლებების შესახებ</span>
+            <div>
+                <i class="fab fa-facebook-f"></i>
+                <i class="fab fa-youtube"></i>
+                <i class="fab fa-instagram"></i>
+            </div>
+        </div>
+    </div>
+    <footer  class="d-flex justify-content-between p-2">
+        <div>
+            <span><a href="#">ჩემი ანგარიში</a></span>
+            <ul>
+                <li><a href="#">ანგარიშზე შესვლა</a></li>
+                <li><a href="#">ანგარიშის შექმნა</a></li>
+            </ul>
+        </div>
+        <div>
+            <span><a href="#">ჩვენს შესახებ</a></span>
+            <ul>
+                <li><a href="#">ჩვენს შესახებ</a></li>
+                <li><a href="#">დაგვიკავშირდით</a></li>
+                <li><a href="#">სასაჩუქრე ვაუჩერი</a></li>
+                <li><a href="#">ბრენდები</a></li>
+                <li><a href="#">Sitemap</a></li>
+                <li><a href="#">ნიდოს ბლოგი</a></li>
+            </ul>
+        </div>
+        <div>
+            <span><a href="#">დაგვიკავშირდით</a></span>
+            <ul>
+                <li>ა. პოლიტკოვსკაიას #7</li>
+                <li>512 2354135</li>
+                <li>ორშ-კვირ 10-18სთ</li>
+                <li>info@nido.ge</li>
+            </ul>
+        </div>
     </footer>
     
 </body>
