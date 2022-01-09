@@ -17,13 +17,14 @@
     <!-- gogole fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Bitter:wght@200;
-            300&family=Nanum+Gothic&family=Quicksand:wght@300;400&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Bitter:wght@200;300&family=Nanum+Gothic&display=swap" rel="stylesheet">  
    <!-- css styles -->
     <link rel="stylesheet" href="./styles/styles.css" > 
+    <!-- media -->
+    <link rel="stylesheet" href="./styles/media.css">
 </head>
 <body>
-    <nav class="container-fluid" >
+    <nav class="container-fluid top-menu " >
         <ul class="nav d-flex justify-content-end">
             <li clas="nav-item"><a class="nav-link" href="#">ვაკანსიები</a></li>
             <li clas="nav-item"><a class="nav-link" href="#">ნიდოს ბლოგი</a></li>
@@ -42,11 +43,12 @@
             <div class="input-group search-padding">
                 <input type="search" class="form-control" placeholder="ვინც ეძებს, ის პოულობს..." aria-label="search">
                 <button class="input-group-text" type="button" >
-                    <i class="fas fa-search"></i>
+                    <a href="./search.html"><i class="fas fa-search"></i></a>
                 </button>
             </div> 
         </div>
         <div class="nav-icons align-items-center d-flex">
+            <a class="responsive-search" href="./search.html"><i class="fas fa-search"></i></a>
             <a href="#"><i class="fas fa-poll"></i></a>
             <a href="#"><i class="far fa-heart"></i></a>
             <a class="shopping-cart" href="./shopping-cart.html">
@@ -72,7 +74,7 @@
         </div>
     </div>
     <div class="search container-fluid w-100 d-flex pb-5">
-        <div class="search-filter d-flex flex-column" style="width: 20%;">
+        <div class="search-filter d-flex flex-column col-3">
             <div class="search-categories">
                 <h5>კატეგორიები</h5>
                 <div class="categroies-checkbox my-3">
@@ -181,23 +183,23 @@
                 <button type="button" class="btn btn-primary w-100">ძებნა</button>
             </div>
         </div>
-        <div class="search-products d-flex flex-column" style="width: 80%;">
-            <div class="d-flex justify-content-between align-items-center w-100" style="height: 30px;">
+        <div class="search-products d-flex flex-column d-flex col-9" >
+            <div class="d-flex justify-content-between align-items-center w-100 resp-wrap" style="height: 30px;">
                 <div class="responsive-filter">
                    <a class="text-decoration-none "href=""> <i class="fas fa-filter"></i>
                     <span>ფილტრი</span></a>
                 </div>
-                <h6 class="m-3 fst-italic">სათამაშოები</h6>
                 <select class="form-select form-control w-auto" aria-label="Default select example">
                     <option selected>ახალი დამატებული</option>
                     <option value="2">ფასი ზრდადობით</option>
                     <option value="3">ფასი კლებადობით</option>
                     <option value="3">რეიტინგის მიხედვით</option>
                 </select>
+                <h6 class="m-3 fst-italic">სათამაშოები</h6>
             </div>
             <hr>
             <div class="d-flex justify-content-around row">
-                <div class="card col-md-3 col-sm-4 ">
+                <div class="card col-lg-3 col-md-4 col-sm-5 ">
                     <a class="d-block" href="#">
                         <div class="nido-prime d-flex">
                            <span>nido prime</span>
@@ -219,7 +221,7 @@
                         <a href="#"><i class="fas fa-poll"></i></a>
                     </div>
                 </div>
-                <div class="card col-md-3 col-sm-4">
+                <div class="card col-lg-3 col-md-4 col-sm-5">
                     <a class="d-block" href="#">
                         <div class="nido-prime d-flex">
                            <span>nido prime</span>
@@ -241,7 +243,7 @@
                         <a href="#"><i class="fas fa-poll"></i></a>
                     </div>
                 </div>
-                <div class="card col-md-3 col-sm-4">
+                <div class="card col-lg-3 col-md-4 col-sm-5">
                     <a class="d-block" href="#">
                         <div class="nido-prime d-flex">
                            <span>nido prime</span>
@@ -263,7 +265,7 @@
                         <a href="#"><i class="fas fa-poll"></i></a>
                     </div>
                 </div>
-                <div class="card col-md-3 col-sm-4">
+                <div class="card col-lg-3 col-md-4 col-sm-5">
                     <a class="d-block" href="#">
                         <div class="nido-prime d-flex">
                            <span>nido prime</span>
@@ -285,7 +287,7 @@
                         <a href="#"><i class="fas fa-poll"></i></a>
                     </div>
                 </div>
-                <div class="card col-md-3 col-sm-4">
+                <div class="card col-lg-3 col-md-4 col-sm-5">
                     <a class="d-block" href="#">
                         <div class="nido-prime d-flex">
                            <span>nido prime</span>
@@ -307,7 +309,7 @@
                         <a href="#"><i class="fas fa-poll"></i></a>
                     </div>
                 </div>
-                <div class="card col-md-3 col-sm-4">
+                <div class="card col-lg-3 col-md-4 col-sm-5">
                     <a class="d-block" href="#">
                         <div class="nido-prime d-flex">
                            <span>nido prime</span>
@@ -324,7 +326,7 @@
                         <span class="card-discr">TopBright თამაში რიცხვების ცნობის სასწავლად TB120478...</span>
                     </a>
                 </div>
-                <div class="card col-md-3 col-sm-4">
+                <div class="card col-lg-3 col-md-4 col-sm-5">
                     <a class="d-block" href="#">
                         <div class="nido-prime d-flex">
                            <span>nido prime</span>
@@ -346,7 +348,7 @@
                         <a href="#"><i class="fas fa-poll"></i></a>
                     </div>
                 </div>
-                <div class="card col-md-3 col-sm-4">
+                <div class="card col-lg-3 col-md-4 col-sm-5">
                     <a class="d-block" href="#">
                         <div class="nido-prime d-flex">
                            <span>nido prime</span>
@@ -368,7 +370,7 @@
                         <a href="#"><i class="fas fa-poll"></i></a>
                     </div>
                 </div>
-                <div class="card col-md-3 col-sm-4">
+                <div class="card col-lg-3 col-md-4 col-sm-5">
                     <a class="d-block" href="#">
                         <div class="nido-prime d-flex">
                            <span>nido prime</span>
@@ -390,7 +392,7 @@
                         <a href="#"><i class="fas fa-poll"></i></a>
                     </div>
                 </div>
-                <div class="card col-md-3 col-sm-4">
+                <div class="card col-lg-3 col-md-4 col-sm-5">
                     <a class="d-block" href="#">
                         <div class="nido-prime d-flex">
                            <span>nido prime</span>
@@ -412,7 +414,7 @@
                         <a href="#"><i class="fas fa-poll"></i></a>
                     </div>
                 </div>
-                <div class="card col-md-3 col-sm-4">
+                <div class="card col-lg-3 col-md-4 col-sm-5">
                     <a class="d-block" href="#">
                         <div class="nido-prime d-flex">
                            <span>nido prime</span>
@@ -434,7 +436,7 @@
                         <a href="#"><i class="fas fa-poll"></i></a>
                     </div>
                 </div>
-                <div class="card col-md-3 col-sm-4">
+                <div class="card col-lg-3 col-md-4 col-sm-5">
                     <a class="d-block" href="#">
                         <div class="nido-prime d-flex">
                            <span>nido prime</span>
@@ -474,8 +476,8 @@
             </div>
         </div>
     </div>
-    <div class="socials-form d-flex justify-content-between p-2">
-        <div class="mail-block d-flex align-items-center">
+    <div class="socials-form d-flex justify-content-between p-3">
+        <div class="mail-block d-flex align-items-center flex-column col p-3">
             <h5>გამოიწერეთ შემოთავაზებები</h5>
             <span>მიიღეთ სპეციალური შეთავაზებები და ფასდაკლებები</span>
             <div class="subscribe d-flex">
@@ -483,7 +485,7 @@
                 <button type="button" class="btn">გამოწერა</button>
             </div>
         </div>
-        <div class="socials-block d-flex align-items-center">
+        <div class="socials-block d-flex align-items-center flex-column col p-3">
             <h5>შემოგვიერთდი</h5>
             <span>შემოგვიერთდი <br> 
             გაიგე პირველმა აქციების და ფასდაკლებების შესახებ</span>

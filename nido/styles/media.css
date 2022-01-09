@@ -1,0 +1,154 @@
+@media screen and (max-width:992px){
+    .top-menu {
+        display: none;
+    }
+    .card-5{
+        display: none;
+    }
+    .search-filter {
+        font-size: 13px;
+    }
+
+    .search-filter h5 {
+        font-size: 17px;
+    }
+
+    .cart-list {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .shop-items-discr{
+        width: 90%;
+    }
+    
+    .paymnet {
+        width: 80%;
+        flex-flow: column-reverse;
+        padding: 5px;
+
+    }
+
+} 
+
+@media screen and (max-width:768px){
+    .card-4{
+        display: none;
+    }
+    .search input,
+    .search .input-group-text{
+        display: none;
+    }
+
+   .responsive-search{
+       display: block;
+   }
+
+   footer{
+       flex-direction: column;
+       text-align: center;
+    
+   }
+
+   footer div,
+   footer li {
+       width: 100%;
+   }
+   .socials-form{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    }
+
+    .mail-block,
+    .socials-block {
+        width: 90%;
+        padding-bottom: 30px;
+    }
+
+    .search-filter div {
+        display: none;
+    
+    }
+    
+    .search .search-filter{
+        width: 0%;
+    }
+    
+    .responsive-filter{
+        display: block;
+    }
+
+    .search-products {
+        width: 100%;
+    }
+
+    .search-products .card {
+        width: 45%;
+    }
+
+    .search-products h6{
+        display: block;
+    }
+
+
+}
+
+@media screen and (max-width:576px){
+   
+    .card-3{
+        display: none;
+    }
+
+    .logo img{
+        padding-left: 0;
+        height: 25px;
+        width: auto;
+    }
+
+    .logo a{
+        padding: 5px;
+    }
+
+    .nav-icons i{
+        padding: 5px;
+        font-size: 21px;
+    }
+
+    
+    .mail-block button {
+        width: 40%;
+    }
+
+    .search-products .form-select {
+        padding: 15px;
+        border: 0px;
+    }
+
+    .resp-wrap span{
+        display: none;
+    }
+
+    .resp-wrap a,
+    .resp-wrap .form-select{
+        font-size: 15px;
+    }
+
+    .shop-items-discr a{
+       flex-direction: column; 
+       font-size: 15px;
+    }
+
+    .shop-items-discr .form-select{
+        width: 70px;
+    }
+
+    .shop-items-discr label{
+        font-size: 12px;
+    }
+
+    .contact-respon{
+        width: 100%;
+    }
+}

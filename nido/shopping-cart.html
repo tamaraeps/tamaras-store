@@ -17,13 +17,14 @@
     <!-- gogole fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Bitter:wght@200;
-            300&family=Nanum+Gothic&family=Quicksand:wght@300;400&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Bitter:wght@200;300&family=Nanum+Gothic&display=swap" rel="stylesheet">  
    <!-- css styles -->
     <link rel="stylesheet" href="./styles/styles.css" > 
+    <!-- media -->
+    <link rel="stylesheet" href="./styles/media.css">
 </head>
 <body>
-    <nav class="container-fluid" >
+    <nav class="container-fluid top-menu " >
         <ul class="nav d-flex justify-content-end">
             <li clas="nav-item"><a class="nav-link" href="#">ვაკანსიები</a></li>
             <li clas="nav-item"><a class="nav-link" href="#">ნიდოს ბლოგი</a></li>
@@ -42,11 +43,12 @@
             <div class="input-group search-padding">
                 <input type="search" class="form-control" placeholder="ვინც ეძებს, ის პოულობს..." aria-label="search">
                 <button class="input-group-text" type="button" >
-                    <i class="fas fa-search"></i>
+                    <a href="./search.html"><i class="fas fa-search"></i></a>
                 </button>
             </div> 
         </div>
         <div class="nav-icons align-items-center d-flex">
+            <a class="responsive-search" href="./search.html"><i class="fas fa-search"></i></a>
             <a href="#"><i class="fas fa-poll"></i></a>
             <a href="#"><i class="far fa-heart"></i></a>
             <a class="shopping-cart" href="#">
@@ -78,7 +80,7 @@
                     </select>
                 </div>
                 <div>
-                    <span class="price-tag">69 ლარი</span>
+                    <span class="price-tag">69₾</span>
                     <p style="font-size: 12px;"><i> უფასო მიწოდება</i></p> 
                 </div>
             </div>
@@ -96,16 +98,16 @@
                     </select>
                 </div>
                 <div>
-                    <span class="price-tag">369 ლარი</span>
+                    <span class="price-tag">369₾</span>
                     <p style="font-size: 12px;"><i> უფასო მიწოდება</i></p> 
                 </div>
             </div>  
         </div>
-        <div class="col-md-3 m-2">
-            <button class="btn btn-primary w-100 my-2">გადახდა</button>
+        <div class="col-md-3 mr-2 paymnet d-flex flex-column">
+            <button class="btn btn-primary w-100 ">გადახდა</button>
             <div class="d-flex justify-content-between py-2">
                <span> ნივთები (2 ცალი):</span>
-               <span>438 ლარი</span>  
+               <span>438ლარი</span>  
             </div>
             <div class="d-flex justify-content-between ">
                 <span>მიწოდება:</span>
@@ -119,8 +121,8 @@
         </div>   
     </div>
     
-    <div class="socials-form d-flex justify-content-between p-2">
-        <div class="mail-block d-flex align-items-center">
+    <div class="socials-form d-flex justify-content-between p-3">
+        <div class="mail-block d-flex align-items-center flex-column col p-3">
             <h5>გამოიწერეთ შემოთავაზებები</h5>
             <span>მიიღეთ სპეციალური შეთავაზებები და ფასდაკლებები</span>
             <div class="subscribe d-flex">
@@ -128,7 +130,7 @@
                 <button type="button" class="btn">გამოწერა</button>
             </div>
         </div>
-        <div class="socials-block d-flex align-items-center">
+        <div class="socials-block d-flex align-items-center flex-column col p-3">
             <h5>შემოგვიერთდი</h5>
             <span>შემოგვიერთდი <br> 
             გაიგე პირველმა აქციების და ფასდაკლებების შესახებ</span>
@@ -143,8 +145,8 @@
         <div>
             <span><a href="#">ჩემი ანგარიში</a></span>
             <ul>
-                <li><a href="#">ანგარიშზე შესვლა</a></li>
-                <li><a href="#">ანგარიშის შექმნა</a></li>
+                <li><a href="./sign-in.html">ანგარიშზე შესვლა</a></li>
+                <li><a href="./register.html">ანგარიშის შექმნა</a></li>
             </ul>
         </div>
         <div>

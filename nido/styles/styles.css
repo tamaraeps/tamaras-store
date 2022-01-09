@@ -205,21 +205,14 @@ h4{
     color: #86a0be;
 }
 
-.mail-block,
-.socials-block {
-    flex-direction: column;
-}
-
-.socials-form{
-    margin:20px;
-}
-
 
 .mail-block,
 .socials-block {
     background-color: #e9ecef;
-    width: 47%;
-    height: 175px;
+    margin: 20px;
+    height: 225px;
+    text-align: center;
+    align-items: center;
 }
 
 .mail-block input{
@@ -301,6 +294,7 @@ footer span{
 
 footer div{
     width: 33%;
+    padding-bottom: 20px;
 }
 
 .chevron{
@@ -431,4 +425,7 @@ footer div{
 .responsive-filter{
     display: none;
 }
-    
+
+.responsive-search{
+    display: none;
+}
