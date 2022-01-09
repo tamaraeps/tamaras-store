@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>ჩემი კალათა</title>
+    <meta charset="UTF-8">  
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- favicon -->
+    <link rel="icon" type="image/x-icon" href="./assets/logo/favicon.ico.png">
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" 
+        rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" 
+        crossorigin="anonymous">
+    <!-- fontaswome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" 
+        integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous"> 
+    <!-- gogole fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bitter:wght@200;
+            300&family=Nanum+Gothic&family=Quicksand:wght@300;400&display=swap" rel="stylesheet"> 
+   <!-- css styles -->
+    <link rel="stylesheet" href="./styles/styles.css" > 
+</head>
+<body>
+    <nav class="container-fluid" >
+        <ul class="nav d-flex justify-content-end">
+            <li clas="nav-item"><a class="nav-link" href="#">ვაკანსიები</a></li>
+            <li clas="nav-item"><a class="nav-link" href="#">ნიდოს ბლოგი</a></li>
+            <li clas="nav-item"><a class="nav-link" href="#">სასაჩუქრე ვაუჩერი</a></li>
+            <li clas="nav-item"><a class="nav-link" href="#">პარტნიორებისთვის</a></li>
+            <li clas="nav-item"><a class="nav-link" href="#">მოტანის პირობები</a></li>
+            <li clas="nav-item"><a class="nav-link" href="#">განვადება</a></li>
+        </ul>
+    </nav>
+    <header class="d-flex justify-content-between header">
+        <div class="logo d-flex align-items-center">
+            <a class="nav-icons" href="#"><i class="fas fa-bars"></i></a>
+            <a href="./index.html"><img src="./assets/logo/nido_logo_2_png.webp" alt="logo"></a>
+        </div>
+        <div class="search align-items-center d-flex">
+            <div class="input-group search-padding">
+                <input type="search" class="form-control" placeholder="ვინც ეძებს, ის პოულობს..." aria-label="search">
+                <button class="input-group-text" type="button" >
+                    <i class="fas fa-search"></i>
+                </button>
+            </div> 
+        </div>
+        <div class="nav-icons align-items-center d-flex">
+            <a href="#"><i class="fas fa-poll"></i></a>
+            <a href="#"><i class="far fa-heart"></i></a>
+            <a class="shopping-cart" href="#">
+                <i class="fas fa-shopping-cart position-relative"></i>
+                <span class="text-decoration-none"></span>
+            </a>
+            <div class="user-circle-icon">
+                <a href="#"><i class="far fa-user-circle"></i></a>
+                <div class="user-circle d-flex position-absolute">
+                    <a href="./sign-in.html"><button type="button" class="btn">ანგარიშზე შესვლა</button></a>
+                    <a href="./register.html"><button type="button" class="btn">რეგისტრაცია</button></a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="cart-list d-flex m-3 py-5 justify-content-between">
+        <div class="shop-items-discr col-md-8 direction-column">
+            <div class="d-flex justify-content-between align-items-center py-2">
+                <a class="d-flex justify-content-center align-items-center text-decoration-none" href=""><img src="./assets/img/toy3.webp" alt="Toy" style="max-width: 30%;">
+                <span>TopBright საბავშვო ქსილოფონი TB120407</span>
+                </a>
+                <div>
+                    <label for="default select example">რაოდენობა</label>
+                    <select class="form-select" aria-label="Default select example">
+                        <option selected>1</option>
+                        <option value="1">2</option>
+                        <option value="2">3</option>
+                        <option value="3">4</option>
+                    </select>
+                </div>
+                <div>
+                    <span class="price-tag">69 ლარი</span>
+                    <p style="font-size: 12px;"><i> უფასო მიწოდება</i></p> 
+                </div>
+            </div>
+            <div class="d-flex justify-content-between align-items-center py-2">
+                <a class="d-flex justify-content-center align-items-center text-decoration-none" href=""><img src="./assets/img/player green.webp" alt="Blue tabla" style="max-width: 30%;">
+                <span>CROSLEY პორტატული ფირსაკრავი Discovery</span>
+                </a>
+                <div>
+                    <label for="default select example">რაოდენობა</label>
+                    <select class="form-select" aria-label="Default select example">
+                        <option selected>1</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                    </select>
+                </div>
+                <div>
+                    <span class="price-tag">369 ლარი</span>
+                    <p style="font-size: 12px;"><i> უფასო მიწოდება</i></p> 
+                </div>
+            </div>  
+        </div>
+        <div class="col-md-3 m-2">
+            <button class="btn btn-primary w-100 my-2">გადახდა</button>
+            <div class="d-flex justify-content-between py-2">
+               <span> ნივთები (2 ცალი):</span>
+               <span>438 ლარი</span>  
+            </div>
+            <div class="d-flex justify-content-between ">
+                <span>მიწოდება:</span>
+                <p style="font-size: 12px;"><i> უფასო მიწოდება</i></p> 
+            </div>
+            <hr>
+            <div class="d-flex justify-content-between ">
+                <span>სულ გადასხდელია:</span>
+                <p ><b> 438ლარი</b></p> 
+            </div>
+        </div>   
+    </div>
+    
+    <div class="socials-form d-flex justify-content-between p-2">
+        <div class="mail-block d-flex align-items-center">
+            <h5>გამოიწერეთ შემოთავაზებები</h5>
+            <span>მიიღეთ სპეციალური შეთავაზებები და ფასდაკლებები</span>
+            <div class="subscribe d-flex">
+                <input type="email" class="form-control" placeholder="ელ.ფოსტა">
+                <button type="button" class="btn">გამოწერა</button>
+            </div>
+        </div>
+        <div class="socials-block d-flex align-items-center">
+            <h5>შემოგვიერთდი</h5>
+            <span>შემოგვიერთდი <br> 
+            გაიგე პირველმა აქციების და ფასდაკლებების შესახებ</span>
+            <div>
+                <i class="fab fa-facebook-f"></i>
+                <i class="fab fa-youtube"></i>
+                <i class="fab fa-instagram"></i>
+            </div>
+        </div>
+    </div>
+    <footer  class="d-flex justify-content-between p-2">
+        <div>
+            <span><a href="#">ჩემი ანგარიში</a></span>
+            <ul>
+                <li><a href="#">ანგარიშზე შესვლა</a></li>
+                <li><a href="#">ანგარიშის შექმნა</a></li>
+            </ul>
+        </div>
+        <div>
+            <span><a href="#">ჩვენს შესახებ</a></span>
+            <ul>
+                <li><a href="#">ჩვენს შესახებ</a></li>
+                <li><a href="#">დაგვიკავშირდით</a></li>
+                <li><a href="#">სასაჩუქრე ვაუჩერი</a></li>
+                <li><a href="#">ბრენდები</a></li>
+                <li><a href="#">Sitemap</a></li>
+                <li><a href="#">ნიდოს ბლოგი</a></li>
+            </ul>
+        </div>
+        <div>
+            <span><a href="./contact.html">დაგვიკავშირდით</a></span>
+            <ul>
+                <li>ა. პოლიტკოვსკაიას #7</li>
+                <li>512 2354135</li>
+                <li>ორშ-კვირ 10-18სთ</li>
+                <li>info@nido.ge</li>
+            </ul>
+        </div>
+    </footer>
+</body>
